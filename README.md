@@ -111,37 +111,7 @@ Settings are stored in `settings.json` and include:
 
 ## Logging
 
-All operations are logged to `logs/pdf-stripper.log` with detailed information about:
-- Text extraction progress
-- Chapter splitting results
-- File operations
-- Error messages
-
-## Dependencies
-
-- **PyPDF2**: PDF text extraction
-- **pdfplumber**: Advanced PDF text extraction
-- **nltk**: Natural language processing
-- **tqdm**: Progress bars
-
-## Project Structure
-
-```
-pdf-stripper/
-├── app/
-│   ├── __init__.py
-│   ├── app.py          # Main application entry point
-│   ├── config.py       # Configuration and settings
-│   ├── pdf_processor.py # PDF processing logic
-│   ├── setup.py        # Virtual environment setup
-│   └── ui.py           # User interface
-├── media/              # Processed books output
-├── logs/               # Application logs
-├── venv/               # Python virtual environment
-├── requirements.txt    # Python dependencies
-├── pdf-stripper        # Main bash script
-└── README.md          # This file
-```
+Logs are written to `logs/pdf-stripper.log`
 
 ## Limitations
 
@@ -166,4 +136,4 @@ pdf-stripper/
 
 ## License
 
-[Add your license information here]
+MIT
